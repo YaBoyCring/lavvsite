@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('./fonts/PixelifySans-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Silkscreen', sans-serif;
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+.space { 
+    margin-top: 50px; 
+}
+.content-container {
+    width: 600px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+    background-color: #3f96e7; /* Background color for the content */
+    padding: 20px;
+    border: 2px solid #1161f7; /* Optional: add a border */
+}
+ul {
+    list-style-image: url('./9e073bbd735d77086621d81dffce4453.jpg'); 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides:first-child {
+    display: block;
+  }
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.rainbowtxt2 {
+     background: linear-gradient(
+     to right,
+    #ff0000,
+    #ff9500,
+    #ffff00,
+    #00ff00,
+    #00ffff,
+    #0000ff,
+    #ff00ff,
+    #ff0000
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+      
+.creds {
+  text-align: center;
+  font-size: 10px;
+}    
+.righttext{
+  text-align: right;
+}
+.card {
+  background-color: rgb(72, 197, 255);
+  padding: 20px;
+  margin-top: 20px;
+}
+a:visited, a:hover, a:focus {
+  text-decoration: none;
+  color: #f832ff;
+}
